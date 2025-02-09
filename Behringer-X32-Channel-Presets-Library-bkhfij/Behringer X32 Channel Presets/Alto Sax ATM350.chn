@@ -1,0 +1,14 @@
+#4.0# 5 "Alto Sax ATM350" 0 %0011111100111100 1                                                                                               
+/config "A.Sax ATM350" 37 YE
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 114
+/gate ON GATE -40.0 40.0 0 20.0  315 0
+/gate/filter ON LC12 101.4
+/dyn ON COMP RMS LOG -24.0 3.0 3 0.00 24 3.17  198 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 376.7 -2.00 2.0
+/eq/2 PEQ 1k17 +2.00 0.8
+/eq/3 PEQ 1k97 +0.00 2.0
+/eq/4 HShv 3k68 -2.00 2.0
+/headamp/000 +20.0 ON

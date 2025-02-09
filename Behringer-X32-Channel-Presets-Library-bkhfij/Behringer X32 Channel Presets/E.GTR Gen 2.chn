@@ -1,0 +1,14 @@
+#4.0# 45 "E.GTR Gen 2" 0 %0011111100111100 1                                                                                              
+/config "E.GTR Gen 2" 20 GN
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 101
+/gate ON EXP4 -75.0 40.0 0  200  615 0
+/gate/filter OFF LC12 148.3
+/dyn ON COMP RMS LOG -18.0 3.0 4 0.00 30 1.00  241 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 PEQ 654.7 +2.00 1.0
+/eq/2 PEQ 2k43 +7.50 1.0
+/eq/3 PEQ 10k02 -3.00 0.4
+/eq/4 HCut 16k25 +0.00 2.0
+/headamp/000 +20.0 OFF

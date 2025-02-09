@@ -1,0 +1,14 @@
+#4.0# 13 "Bass GTR" 0 %0011111100111100 1                                                                                              
+/config "Bass GTR" 26 RD
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24  20
+/gate ON EXP4 -75.0 40.0 0  200  615 0
+/gate/filter OFF 3.0 990.9
+/dyn ON COMP RMS LOG -18.0 2.0 1 0.00 15 1.00  276 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 38.6 -3.00 2.0
+/eq/2 PEQ 112.5 +2.50 0.9
+/eq/3 PEQ 1k97 +2.00 3.9
+/eq/4 HCut 10k02 +0.00 2.0
+/headamp/000 +15.0 OFF

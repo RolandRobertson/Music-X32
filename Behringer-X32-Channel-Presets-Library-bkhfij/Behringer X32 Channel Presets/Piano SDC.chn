@@ -1,0 +1,14 @@
+#4.0# 57 "Piano SDC" 0 %0011111100111100 1                                                                                              
+/config "Piano SDC" 27 MG
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24  49
+/gate ON EXP4 -75.0 40.0 0  200  615 0
+/gate/filter ON LC12 153.5
+/dyn ON COMP RMS LOG -18.0 3.0 3 0.00 15 1.00  151 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 164.4 -3.00 2.0
+/eq/2 PEQ 295.8 -1.50 0.9
+/eq/3 PEQ 2k27 +2.00 0.5
+/eq/4 HShv 8k43 +3.00 2.0
+/headamp/000 +18.0 ON

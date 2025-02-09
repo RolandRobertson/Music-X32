@@ -1,0 +1,14 @@
+#4.0# 16 "Choir LDC" 0 %0011111100111100 1                                                                                              
+/config "Choir LDC" 43 MG
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 110
+/gate ON EXP3 -40.0 60.0 10 89.3  276 0
+/gate/filter ON LC12 101.4
+/dyn ON COMP RMS LOG -20.0 3.0 1 0.00 40 1.00  241 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 893.4 -1.50 2.0
+/eq/2 PEQ 143.2 -2.50 1.1
+/eq/3 PEQ 248.9 -1.50 3.1
+/eq/4 HCut 10k02 +0.00 2.0
+/headamp/000 +30.0 ON

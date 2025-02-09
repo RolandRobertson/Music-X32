@@ -1,0 +1,14 @@
+#4.0# 62 "Podium SM58" 0 %0011111100111100 1                                                                                              
+/config "Podium SM58" 52 CY
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 101
+/gate ON EXP4 -62.0 12.0 0  112  504 0
+/gate/filter OFF 3.0 990.9
+/dyn ON COMP RMS LOG -30.0 4.0 5 0.00 15 1.00  116 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 447.7 -2.00 2.0
+/eq/2 PEQ 158.9 -3.00 1.8
+/eq/3 PEQ 893.4 -5.00 2.2
+/eq/4 PEQ 8k43 -6.00 3.4
+/headamp/000 +40.0 OFF

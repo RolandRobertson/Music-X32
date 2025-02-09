@@ -1,0 +1,14 @@
+#4.0# 28 "Kick Out e 902" 0 %0011111100111100 1                                                                                              
+/config "Kick e 902" 3 BL
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24  38
+/gate ON EXP4 -50.0 40.0 0  200  361 0
+/gate/filter ON 5.0 64.7
+/dyn ON COMP PEAK LOG -22.0 5.0 1 0.00 30 1.00  151 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 PEQ 62.5 +7.50 2.0
+/eq/2 PEQ 182.4 -12.5 0.8
+/eq/3 PEQ 570.2 -5.50 1.0
+/eq/4 HCut 9k03 +0.50 2.0
+/headamp/000 +16.0 OFF

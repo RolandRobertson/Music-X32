@@ -1,0 +1,14 @@
+#4.0# 3 "Floor Tom D4" 0 %0011111100111100 1                                                                                   
+/config "Fl.Tom D4" 8 BL
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24  49
+/gate ON GATE -26.0 40.0 0  200  385 0
+/gate/filter ON 3.0 209.4
+/dyn ON COMP PEAK LOG -23.0 5.0 1 0.00 19 10.0  226 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 202.3 +8.00 2.0
+/eq/2 PEQ 403.7 -15.0 0.6
+/eq/3 PEQ 6k85 +4.00 1.0
+/eq/4 HCut 9k03 +8.00 1.0
+/headamp/000 +18.0 OFF

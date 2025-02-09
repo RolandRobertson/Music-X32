@@ -1,0 +1,14 @@
+#4.0# 7 "Alto Sax PGA98H" 0 %0011111100111100 1                                                                                               
+/config "A.Sax PGA98H" 37 YE
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 149
+/gate ON GATE -40.0 40.0 0 20.0  315 0
+/gate/filter ON LC12 101.4
+/dyn ON COMP RMS LOG -24.0 3.0 3 0.00 24 3.17  198 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 417.9 +2.00 1.0
+/eq/2 PEQ 188.8 -2.00 1.0
+/eq/3 PEQ 893.4 +2.00 0.7
+/eq/4 PEQ 1k97 +2.00 1.0
+/headamp/000 +25.0 ON

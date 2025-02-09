@@ -1,0 +1,14 @@
+#4.0# 51 "Flute General" 0 %0011111100111100 1                                                                                              
+/config "Flute Gen" 38 YE
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 233
+/gate ON GATE -40.0 40.0 0 20.0  315 0
+/gate/filter OFF 3.0 990.9
+/dyn ON COMP RMS LOG -18.0 3.0 5 0.00 5 1.00  15 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 PEQ 351.6 +3.00 1.0
+/eq/2 PEQ 1k49 -2.50 1.4
+/eq/3 HShv 2k99 +3.00 2.0
+/eq/4 HCut 10k02 +0.00 2.0
+/headamp/000 +25.0 OFF

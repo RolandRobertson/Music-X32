@@ -1,0 +1,14 @@
+#4.0# 41 "Snare Top i5" 0 %0011111100111100 1                                                                                              
+/config "Snr Top i5" 4 BL
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24  89
+/gate ON EXP4 -51.0 20.0 0  200  538 0
+/gate/filter ON LC12 153.5
+/dyn ON COMP PEAK LOG -15.0 5.0 3 0.00 20 1.00  40 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 143.2 +4.00 2.0
+/eq/2 PEQ 403.7 -5.00 3.1
+/eq/3 PEQ 7k87 +5.00 2.0
+/eq/4 HCut 13k67 +0.00 2.0
+/headamp/000 +10.0 OFF

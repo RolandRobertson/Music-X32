@@ -1,0 +1,14 @@
+#4.0# 54 "Conga Low" 0 %0011111100111100 1                                                                                              
+/config "Conga Low" 14 BL
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24  75
+/gate ON EXP4 -40.0 40.0 0 63.2  315 0
+/gate/filter OFF 3.0 990.9
+/dyn ON COMP PEAK LOG -20.0 2.5 2 0.00 8 1.00  89 POST 0 100 OFF
+/dyn/filter ON LC12 148.3
+/eq ON
+/eq/1 PEQ 209.4 +3.00 2.8
+/eq/2 PEQ 1k30 -4.00 3.1
+/eq/3 PEQ 2k19 +6.50 0.6
+/eq/4 HCut 4k85 +0.00 2.0
+/headamp/000 +15.0 OFF

@@ -1,0 +1,14 @@
+#4.0# 11 "Bari Sax PGA98H" 0 %0011111100111100 1                                                                                              
+/config "B.Sax PGA98H" 37 YE
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24  75
+/gate ON GATE -40.0 40.0 0 20.0  337 0
+/gate/filter ON LC12 74.3
+/dyn ON COMP RMS LOG -24.0 3.0 3 0.00 24 15.8  315 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 403.7 +2.50 1.0
+/eq/2 PEQ 188.8 +0.00 1.0
+/eq/3 PEQ 1k21 -2.50 1.5
+/eq/4 HShv 9k35 -2.00 1.0
+/headamp/000 +25.0 ON

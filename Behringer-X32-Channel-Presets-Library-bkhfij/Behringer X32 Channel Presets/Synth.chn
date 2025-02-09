@@ -1,0 +1,14 @@
+#4.0# 63 "Synth" 0 %0011111100111100 1                                                                                              
+/config "Synth" 31 MG
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24  20
+/gate ON EXP4 -75.0 40.0 0  200  615 0
+/gate/filter OFF LC12 153.5
+/dyn ON COMP RMS LOG -19.0 4.0 4 0.00 31 1.00  361 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 148.3 +0.00 2.0
+/eq/2 PEQ 496.6 +0.00 2.0
+/eq/3 PEQ 4k22 +3.50 1.0
+/eq/4 HCut 10k02 +0.00 2.0
+/headamp/000 +30.0 OFF

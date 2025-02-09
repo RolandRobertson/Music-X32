@@ -1,0 +1,14 @@
+#4.0# 33 "O.Head LDC" 0 %0011111100111100 1                                                                                              
+/config "O.Head LDC" 11 BL
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 101
+/gate ON EXP4 -62.0 40.0 0  200  703 0
+/gate/filter ON LC12 202.3
+/dyn ON COMP PEAK LOG -29.0 3.0 2 0.00 58 1.00  20 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 1k21 -1.50 2.0
+/eq/2 PEQ 496.6 +0.00 2.0
+/eq/3 PEQ 3k81 -1.50 2.5
+/eq/4 HShv 10k02 +0.00 2.0
+/headamp/000 +18.0 ON

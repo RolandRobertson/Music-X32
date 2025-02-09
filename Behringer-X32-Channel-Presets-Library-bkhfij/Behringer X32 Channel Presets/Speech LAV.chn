@@ -1,0 +1,14 @@
+#4.0# 95 "Speech LAV" 0 %0011111100111100 1                                                                                    
+/config "LAV" 47 WHi
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 149
+/gate ON EXP3 -60.0 12.0 0  100  226 0
+/gate/filter ON LC12 105.0
+/dyn ON COMP RMS LOG -25.0 4.0 5 3.00 16 1.00  72 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 924.8 -5.00 2.0
+/eq/2 PEQ 590.2 -1.50 1.0
+/eq/3 PEQ 1k39 -1.50 0.6
+/eq/4 HShv 10k74 -5.00  10
+/headamp/000 +24.0 OFF

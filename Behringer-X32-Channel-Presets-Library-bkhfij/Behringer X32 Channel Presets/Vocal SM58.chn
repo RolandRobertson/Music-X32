@@ -1,0 +1,14 @@
+#4.0# 92 "Vocal SM58" 0 %0011111100111100 1                                                                                    
+/config "Vocal SM58" 50 WH
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 101
+/gate ON GATE -55.5 40.0 1 79.6  173 0
+/gate/filter ON LC12 105.0
+/dyn ON COMP RMS LOG -23.5 7.0 1 0.00 25 1.00  108 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 990.9 -3.00 2.0
+/eq/2 PEQ 153.5 -1.50 1.3
+/eq/3 PEQ 590.2 -3.00 2.2
+/eq/4 PEQ 2k51 -1.00 1.0
+/headamp/000 +30.0 OFF

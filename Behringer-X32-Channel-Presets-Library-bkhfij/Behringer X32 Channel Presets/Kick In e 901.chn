@@ -1,0 +1,14 @@
+#4.0# 25 "Kick In e 901" 0 %0011111100111100 1                                                                                              
+/config "Kick In e901" 2 BL
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24  38
+/gate ON EXP4 -45.0 40.0 0 79.6  361 0
+/gate/filter ON 5.0 69.3
+/dyn ON COMP PEAK LOG -24.0 5.0 0 0.00 9 1.00  198 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 105.0 +3.00 2.0
+/eq/2 PEQ 133.7 -5.50 1.8
+/eq/3 PEQ 403.7 -11.0 1.4
+/eq/4 HCut 11k91 +0.00 2.0
+/headamp/000 +18.0 ON

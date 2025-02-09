@@ -1,0 +1,14 @@
+#4.0# 93 "Speech Handheld" 0 %0011111100111100 1                                                                               
+/config "Handheld" 51 WHi
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 124
+/gate ON EXP3 -60.0 12.0 0  100  226 0
+/gate/filter ON LC12 105.0
+/dyn ON COMP RMS LOG -25.0 4.0 5 3.00 16 1.00  72 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 924.8 -5.00 2.0
+/eq/2 PEQ 170.2 -1.50 3.1
+/eq/3 PEQ 611.0 -3.00 2.2
+/eq/4 PEQ 10k02 +0.00  10
+/headamp/000 +8.0 OFF

@@ -1,0 +1,14 @@
+#4.0# 34 "O.Head KSM137" 0 %0011111100111100 1                                                                                              
+/config "O.Head KSM" 11 BL
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 101
+/gate ON EXP4 -62.0 40.0 0  200  703 0
+/gate/filter ON LC12 202.3
+/dyn ON COMP PEAK LOG -29.0 3.0 2 0.00 58 1.00  20 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 701.5 -3.50 2.0
+/eq/2 PEQ 403.7 -3.00 5.0
+/eq/3 PEQ 3k81 +0.00 2.5
+/eq/4 HShv 5k97 +2.00 2.0
+/headamp/000 +18.0 ON
